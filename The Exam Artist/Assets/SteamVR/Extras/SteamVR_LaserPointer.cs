@@ -29,6 +29,7 @@ namespace Valve.VR.Extras
 
         private void Start()
         {
+            //if (!active) return;
             if (pose == null)
                 pose = this.GetComponent<SteamVR_Behaviour_Pose>();
             if (pose == null)
@@ -96,7 +97,7 @@ namespace Valve.VR.Extras
                 isActive = true;
                 this.transform.GetChild(0).gameObject.SetActive(true);
             }
-
+            //if (!active) return;
             float dist = 100f;
 
             Ray raycast = new Ray(transform.position, transform.forward);
