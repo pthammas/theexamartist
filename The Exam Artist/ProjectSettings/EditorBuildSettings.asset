@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 6f9bd4467a7f8574cbe2c5c58eba2c29
+  - enabled: 1
+    path: Assets/Scenes/Reportcard.unity
+    guid: c4cf7a33115cbbc4c84df3c4df4ccf9e
   m_configObjects: {}
