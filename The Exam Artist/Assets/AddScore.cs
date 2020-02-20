@@ -8,6 +8,7 @@ public class AddScore : MonoBehaviour
     public static int gameScore = 0;
     public Text scoreText;
     public Text DisplayScoreText;
+  
 
 
     void Update() {
